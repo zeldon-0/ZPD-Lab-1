@@ -1,0 +1,13 @@
+E:\ZPD\ZPD_1_1\bin\Debug\netcoreapp3.1\ZPD_1_1.exe
+E:\ZPD\ZPD_1_1\obj\Debug\netcoreapp3.1\ZPD_1_1.csprojAssemblyReference.cache
+E:\ZPD\ZPD_1_1\obj\Debug\netcoreapp3.1\ZPD_1_1.AssemblyInfoInputs.cache
+E:\ZPD\ZPD_1_1\obj\Debug\netcoreapp3.1\ZPD_1_1.AssemblyInfo.cs
+E:\ZPD\ZPD_1_1\bin\Debug\netcoreapp3.1\ZPD_1_1.deps.json
+E:\ZPD\ZPD_1_1\bin\Debug\netcoreapp3.1\ZPD_1_1.runtimeconfig.json
+E:\ZPD\ZPD_1_1\bin\Debug\netcoreapp3.1\ZPD_1_1.runtimeconfig.dev.json
+E:\ZPD\ZPD_1_1\bin\Debug\netcoreapp3.1\ZPD_1_1.dll
+E:\ZPD\ZPD_1_1\bin\Debug\netcoreapp3.1\ZPD_1_1.pdb
+E:\ZPD\ZPD_1_1\obj\Debug\netcoreapp3.1\ZPD_1_1.csproj.CoreCompileInputs.cache
+E:\ZPD\ZPD_1_1\obj\Debug\netcoreapp3.1\ZPD_1_1.dll
+E:\ZPD\ZPD_1_1\obj\Debug\netcoreapp3.1\ZPD_1_1.pdb
+E:\ZPD\ZPD_1_1\obj\Debug\netcoreapp3.1\ZPD_1_1.genruntimeconfig.cache

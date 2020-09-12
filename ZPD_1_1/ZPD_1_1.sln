@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZPD_1_1", "ZPD_1_1.csproj", "{40FB3744-2541-4B9A-8996-F4065E2366AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZPD_1_1.Tests", "..\ZPD_1_1.Tests\ZPD_1_1.Tests.csproj", "{42BCFD21-4889-4C56-BE9E-7AAF21E858D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40FB3744-2541-4B9A-8996-F4065E2366AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FB3744-2541-4B9A-8996-F4065E2366AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FB3744-2541-4B9A-8996-F4065E2366AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FB3744-2541-4B9A-8996-F4065E2366AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42BCFD21-4889-4C56-BE9E-7AAF21E858D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42BCFD21-4889-4C56-BE9E-7AAF21E858D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42BCFD21-4889-4C56-BE9E-7AAF21E858D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42BCFD21-4889-4C56-BE9E-7AAF21E858D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9248C78-9631-4027-9F28-984D99D72561}
+	EndGlobalSection
+EndGlobal
