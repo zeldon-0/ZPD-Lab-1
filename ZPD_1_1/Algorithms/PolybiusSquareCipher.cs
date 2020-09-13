@@ -23,7 +23,7 @@ namespace ZPD_1_1.Algorithms
         public string Encode(string message)
         {
             if (message == null)
-                throw new ArgumentNullException("Provided alphabet is null");
+                throw new ArgumentNullException("Provided message is null");
 
             var square = _generateSquare();
 
@@ -52,7 +52,7 @@ namespace ZPD_1_1.Algorithms
         public string Decode(string message)
         {
             if (message == null)
-                throw new ArgumentNullException("Provided alphabet is null");
+                throw new ArgumentNullException("Provided message is null");
 
             var square = _generateSquare();
 

@@ -23,9 +23,8 @@ namespace ZPD_1_1.Algorithms
 
         public string Encode(string message)
         {
-
             if (message == null)
-                throw new ArgumentNullException("Provided alphabet is null");
+                throw new ArgumentNullException("Provided message is null");
 
             message = message.ToUpper();
 
@@ -50,6 +49,41 @@ namespace ZPD_1_1.Algorithms
             }
 
             return encodedMessage.ToString();
+        }
+
+        public string Decode(string encodedMessage)
+        {
+            if (encodedMessage == null)
+                throw new ArgumentNullException("Provided message is null");
+
+            encodedMessage = encodedMessage.ToUpper();
+
+            StringBuilder originalMessage = new StringBuilder();
+
+            Regex pattern = new Regex(@"\W|[0-9]");
+            int shift = 0;
+            foreach (char symbol in encodedMessage)
+            {
+                if (pattern.Match(symbol.ToString()).Success)
+                {
+                    originalMessage.Append(symbol);
+                }
+                else
+                {
+                    int shiftedPosition = _alphabet[symbol];
+                    int originalPosition = (shiftedPosition - shift) % _alphabet.Size;
+
+                    if (originalPosition < 0)
+                        originalPosition += _alphabet.Size;
+
+                    char shiftedSymbol = _alphabet[originalPosition];
+                    shift++;
+
+                    originalMessage.Append(shiftedSymbol);
+                }
+            }
+
+            return originalMessage.ToString();
         }
     }
 }

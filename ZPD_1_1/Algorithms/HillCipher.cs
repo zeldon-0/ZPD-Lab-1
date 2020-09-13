@@ -64,7 +64,7 @@ namespace ZPD_1_1.Algorithms
         public string Encode(string message)
         {
             if (message == null)
-                throw new ArgumentNullException("Provided alphabet is null");
+                throw new ArgumentNullException("Provided message is null");
 
             message = message.ToUpper();
 
@@ -133,7 +133,7 @@ namespace ZPD_1_1.Algorithms
         {
 
             if (message == null)
-                throw new ArgumentNullException("Provided alphabet is null");
+                throw new ArgumentNullException("Provided message is null");
 
             message = message.ToUpper();
 
